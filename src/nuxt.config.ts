@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   modules: [
     // '@nuxt/eslint',
     // '@nuxt/image',
+    '@pinia/nuxt',
     // VuetifyのViteプラグインを登録する設定
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
